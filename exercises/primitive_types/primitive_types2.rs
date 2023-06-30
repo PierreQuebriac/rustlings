@@ -8,6 +8,7 @@
 
 fn main() {
     // Characters (`char`)
+    let a = 4;
 
     // Note the _single_ quotes, these are different from the double quotes
     // you've been seeing around.
