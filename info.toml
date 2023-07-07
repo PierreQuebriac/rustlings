@@ -167,6 +167,13 @@ For that first compiler error, it's important in Rust that each conditional
 block returns the same type! To get the tests passing, you will need a couple
 conditions checking different input values."""
 
+[[exercises]]
+name = "if3"
+path = "exercises/if/if3.rs"
+mode = "test"
+hint = """
+In Rust, every arm of an `if` expression has to return the same type of value. Make sure the type is consistent across all arms."""
+
 # QUIZ 1
 
 [[exercises]]
@@ -439,7 +446,7 @@ mode = "compile"
 hint = """
 Yes, it would be really easy to fix this by just changing the value bound to `word` to be a
 string slice instead of a `String`, wouldn't it?? There is a way to add one character to line
-9, though, that will coerce the `String` into a string slice.
+12, though, that will coerce the `String` into a string slice.
 
 Side note: If you're interested in learning about how this kind of reference conversion works, you can jump ahead in the book and read this part in the smart pointers chapter: https://doc.rust-lang.org/stable/book/ch15-02-deref.html#implicit-deref-coercions-with-functions-and-methods"""
 
